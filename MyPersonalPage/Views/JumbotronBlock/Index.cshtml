@@ -1,0 +1,8 @@
+﻿@model MyPersonalPage.Models.Blocks.JumbotronBlock
+
+<div class="row page-header">
+    <div class="col-md-12">
+        <h1 class="display-3">@Html.PropertyFor(m => m.Heading)</h1>
+        <p>@Html.PropertyFor(x => x.MainBody)</p>
+    </div>
+</div>

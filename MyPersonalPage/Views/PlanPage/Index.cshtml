@@ -1,0 +1,19 @@
+﻿@using EPiServer.Editor
+@model MyPersonalPage.Models.Pages.PlanPage
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row page-header">
+    <div class="col-md-12">
+        <h1 class="display-3">@Html.PropertyFor(m => m.Heading)</h1>
+        <p>@Html.PropertyFor(x => x.MainBody)</p>
+    </div>
+</div>
+
+<!-- Block Content Area -->
+@if (Model.MainContentArea != null || PageEditing.PageIsInEditMode)
+{
+    <!-- Block content goes here -->
+    @Html.PropertyFor(x => x.MainContentArea)
+}
