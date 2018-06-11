@@ -1,0 +1,8 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -0,0 +1,6 @@
++MyPersonalPage/App_Data/EPiServerDB_72778b84.mdf
++MyPersonalPage/App_Data/EPiServerDB_72778b84_log.ldf
++MyPersonalPage/App_Data/GeoLiteCity.dat
++packages/EPiServer.CMS.11.5.4/content/App_Data/GeoLiteCity.dat
++packages/EPiServer.CMS.11.5.4/EPiServer.CMS.11.5.4.nupkg
++packages/EPiServer.CMS.UI.11.4.3/EPiServer.CMS.UI.11.4.3.nupkg
