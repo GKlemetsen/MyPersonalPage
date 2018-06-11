@@ -223,14 +223,19 @@
     <Compile Include="Models\Pages\PageBase.cs" />
     <Compile Include="Models\Pages\PlanPage.cs" />
     <Compile Include="Models\Pages\StartPage.cs" />
+    <Compile Include="Models\ViewModels\BSBaseModel.cs" />
+    <Compile Include="Models\ViewModels\BSBreakFastModel.cs" />
+    <Compile Include="Models\ViewModels\BSDinnerModel.cs" />
+    <Compile Include="Models\ViewModels\BSLunchModel.cs" />
+    <Compile Include="Models\ViewModels\BSOneDayModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business\" />
     <Folder Include="Models\Media\" />
     <Folder Include="Models\Properties\" />
-    <Folder Include="Models\ViewModels\" />
     <Folder Include="Static\" />
+    <Folder Include="Views\BSOneDay\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
